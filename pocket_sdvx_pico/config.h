@@ -9,3 +9,5 @@
 #define MK_3_SPEED
 #define MK_C_OFFSET_UNMOD 40
 #define MK_C_INTERVAL_UNMOD 0
+
+#define ENCODER_RESOLUTION 1
