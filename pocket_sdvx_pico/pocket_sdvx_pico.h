@@ -4,9 +4,9 @@
 #include "quantum.h"
 
 enum custom_keycodes {
-    VOL_L_LEFT = QK_USER,
+    VOL_L_LEFT = QK_KB,
     VOL_L_RIGHT,
     VOL_R_LEFT,
     VOL_R_RIGHT,
-    NEW_QK_USER
+    NEW_QK_KB
 };

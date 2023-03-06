@@ -1,6 +1,6 @@
 {
     "keyboard_name": "Pocket SDVX Pico",
-    "manufacturer": "ThailerL",
+    "manufacturer": "Speedy Labs",
     "url": "",
     "maintainer": "ThailerL",
     "usb": {
@@ -17,7 +17,7 @@
         "encoder": true,
         "nkro": true,
         "mousekey": true,
-        "console": true
+        "rgblight": true
     },
     "processor": "RP2040",
     "bootloader": "rp2040",
@@ -33,6 +33,10 @@
             { "pin_a": "GP0", "pin_b": "GP1" },
             { "pin_a": "GP2", "pin_b": "GP3" }
         ]
+    },
+    "rgblight": {
+        "pin": "GP28",
+        "led_count": 10
     },
     "layouts": {
         "LAYOUT": {
