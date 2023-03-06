@@ -23,4 +23,4 @@ There are also a bunch of lighting modes that come with QMK. I don't think the "
 
 ## Not implemented yet
 
-There is no reactive lighting like the Turbocharger mode yet. I would also like to support the v5 controller at some point, and will do some refactoring along with that. The encoders navigating menus might need some tweaking too.
+There is no reactive lighting like the Turbocharger mode yet. I would also like to support the v5 controller at some point, and will do some refactoring along with that. Navigating menus with the encoders might need some tweaking too.
