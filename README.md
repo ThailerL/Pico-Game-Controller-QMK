@@ -17,6 +17,10 @@ The default layer looks like junk, but those are just keycodes for gamepad butto
 
 There are also a bunch of lighting modes that come with QMK. I don't think the "Effect Speed" slider actually does anything. The number next to the effect names is the speed.
 
+## How to develop or do more advanced configuration
+
+(Set up your environment for QMK)[https://docs.qmk.fm/#/newbs_getting_started]. Then copy or symlink the [pocket_sdvx_pico](pocket_sdvx_pico) folder into the `keyboard` folder of `qmk_firmware`. Then the directory structure should look like `/qmk_firmware/keyboards/pocket_sdvx_pico/(all the files)`. Then you can run `qmk compile -j 0 -kb pocket_sdvx_pico -km via` (or default) to build the firmware.
+
 ## Not implemented yet
 
 There is no reactive lighting like the Turbocharger mode yet. I would also like to support the v5 controller at some point, and will do some refactoring along with that. The encoders navigating menus might need some tweaking too.
