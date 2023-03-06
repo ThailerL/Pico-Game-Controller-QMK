@@ -15,6 +15,8 @@
     },
     "features": {
         "encoder": true,
+        "nkro": true,
+        "mousekey": true,
         "console": true
     },
     "processor": "RP2040",
