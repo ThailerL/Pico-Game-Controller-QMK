@@ -19,7 +19,7 @@ There are also a bunch of lighting modes that come with QMK. I don't think the "
 
 ## How to develop or do more advanced configuration
 
-(Set up your environment for QMK)[https://docs.qmk.fm/#/newbs_getting_started]. Then copy or symlink the [pocket_sdvx_pico](pocket_sdvx_pico) folder into the `keyboard` folder of `qmk_firmware`. Then the directory structure should look like `/qmk_firmware/keyboards/pocket_sdvx_pico/(all the files)`. Then you can run `qmk compile -j 0 -kb pocket_sdvx_pico -km via` (or default) to build the firmware.
+[Set up your environment for QMK](https://docs.qmk.fm/#/newbs_getting_started). Then copy or symlink the [pocket_sdvx_pico](pocket_sdvx_pico) folder into the `keyboard` folder of `qmk_firmware`. Then the directory structure should look like `/qmk_firmware/keyboards/pocket_sdvx_pico/(all the files)`. Then you can run `qmk compile -j 0 -kb pocket_sdvx_pico -km via` (or default) to build the firmware.
 
 ## Not implemented yet
 
