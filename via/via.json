@@ -1,98 +1,101 @@
 {
-    "name": "Pocket SDVX Pico",
-    "vendorId": "0x1CCF",
-    "productId": "0x101C",
-    "matrix": {
-        "rows": 2,
-        "cols": 5
+  "name": "Pocket SDVX Pico",
+  "vendorId": "0x1CCF",
+  "productId": "0x101C",
+  "matrix": {
+    "rows": 2,
+    "cols": 5
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "customKeycodes": [
+    {
+      "name": "VOL-L\nLeft",
+      "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
+      "shortName": "VOL-L Left"
     },
-    "customKeycodes": [
-        {
-            "name": "VOL-L\nLeft",
-            "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
-            "shortName": "VOL-L Left"
-        },
-        {
-            "name": "VOL-L\nRight",
-            "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
-            "shortName": "VOL-L Right"
-        },
-        {
-            "name": "VOL-R\nLeft",
-            "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
-            "shortName": "VOL-R Left"
-        },
-        {
-            "name": "VOL-R\nRight",
-            "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
-            "shortName": "VOL-R Right"
-        }
-    ],
-    "menus": [
-        "qmk_rgblight"
-    ],
-    "layouts": {
-        "keymap": [
-            [
-                {
-                  "a": 7
-                },
-                "e0",
-                {
-                  "x": 3.25,
-                  "a": 4
-                },
-                "0,2",
-                {
-                  "x": 3.25,
-                  "a": 7
-                },
-                "e1"
-              ],
-              [
-                {
-                  "y": 1,
-                  "x": 1,
-                  "a": 4,
-                  "w": 1.5
-                },
-                "0,0",
-                {
-                  "x": 0.5,
-                  "w": 1.5
-                },
-                "0,1",
-                {
-                  "x": 0.5,
-                  "w": 1.5
-                },
-                "0,3",
-                {
-                  "x": 0.5,
-                  "w": 1.5
-                },
-                "0,4"
-              ],
-              [
-                {
-                  "y": 0.25,
-                  "x": 4.25
-                },
-                "1,2"
-              ],
-              [
-                {
-                  "y": -0.25,
-                  "x": 1.5,
-                  "w": 2
-                },
-                "1,1",
-                {
-                  "x": 2.5,
-                  "w": 2
-                },
-                "1,3"
-              ]
-        ]
+    {
+      "name": "VOL-L\nRight",
+      "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
+      "shortName": "VOL-L Right"
+    },
+    {
+      "name": "VOL-R\nLeft",
+      "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
+      "shortName": "VOL-R Left"
+    },
+    {
+      "name": "VOL-R\nRight",
+      "title": "Used in gamepad mode for plug & play compatibility with SDVX EAC",
+      "shortName": "VOL-R Right"
     }
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "a": 7
+        },
+        "e0",
+        {
+          "x": 3.25,
+          "a": 4
+        },
+        "0,2",
+        {
+          "x": 3.25,
+          "a": 7
+        },
+        "e1"
+      ],
+      [
+        {
+          "y": 1,
+          "x": 1,
+          "a": 4,
+          "w": 1.5
+        },
+        "0,0",
+        {
+          "x": 0.5,
+          "w": 1.5
+        },
+        "0,1",
+        {
+          "x": 0.5,
+          "w": 1.5
+        },
+        "0,3",
+        {
+          "x": 0.5,
+          "w": 1.5
+        },
+        "0,4"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 4.25
+        },
+        "1,2"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 1.5,
+          "w": 2
+        },
+        "1,1",
+        {
+          "x": 2.5,
+          "w": 2
+        },
+        "1,3"
+      ]
+    ]
+  }
 }
